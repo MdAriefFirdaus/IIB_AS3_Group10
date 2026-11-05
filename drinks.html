@@ -1,92 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refreshing Drinks Menu</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts for warm, cozy typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drinks - Wonderland Canteen</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="site-header">
+    <h1>Wonderland Canteen</h1>
+    <p>Satisfying Drinks to Quench Your Thirst.</p>
+  </header>
 
-    <header class="hero-section">
-        <div class="hero-content">
-            <span class="badge">Refreshing & Authentic</span>
-            <h1>Our Signature Drinks</h1>
-            <p>Sip into comfort with our selection of traditional favorites and refreshing coolers crafted to brighten your day.</p>
+   <!-- Navigation bar to link all your pages together -->
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Usual Menu</a>
+    <a href="drinks.html">Drinks</a>
+    <a href="snacks.html">Snacks</a>
+  </nav>
+
+
+  <main>
+    <section class="card">
+      <h2>Drinks</h2>
+      <p>Sip into comfort with our selection of traditional favorites and refreshing coolers crafted to brighten your day.</p>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+        <div style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; background-color: #f9fafb;">
+          <h3 style="margin-top: 0; color: var(--primary-blue);">Air Bandung</h3>
+          <p style="margin: 0.5rem 0; color: #555;">A beloved classic blending fragrant rose cordial syrup with rich creamy condensed and evaporated milk over ice.</p>
+          <strong style="color: var(--primary-blue);">$2.50</strong>
         </div>
-    </header>
 
-    <main class="menu-container">
-        <div class="drinks-grid">
-
-            <!-- Drink 1: Air Bandung -->
-            <div class="drink-card">
-                <div class="card-header">
-                    <span class="tag">Traditional</span>
-                    <span class="price">B$ 2.50</span>
-                </div>
-                <h3>Air Bandung</h3>
-                <p class="description">A beloved classic blending fragrant rose cordial syrup with rich creamy condensed and evaporated milk over ice.</p>
-            </div>
-
-            <!-- Drink 2: Teh Tarik -->
-            <div class="drink-card">
-                <div class="card-header">
-                    <span class="tag">Hot Favorite</span>
-                    <span class="price">B$ 2.00</span>
-                </div>
-                <h3>Teh Tarik</h3>
-                <p class="description">Strong hot brewed black tea 'pulled' back and forth to create a velvety, frothy top layer with sweet condensed milk.</p>
-            </div>
-
-            <!-- Drink 3: Calamansi Juice -->
-            <div class="drink-card">
-                <div class="card-header">
-                    <span class="tag">Citrus Punch</span>
-                    <span class="price">B$ 2.20</span>
-                </div>
-                <h3>Calamansi Juice</h3>
-                <p class="description">Vibrant, tangy, and ice-cold fresh local calamansi lime juice packed with vitamin C to instantly beat the tropical heat.</p>
-            </div>
-
-            <!-- Drink 4: Ice Lemon Tea -->
-            <div class="drink-card">
-                <div class="card-header">
-                    <span class="tag">Refreshing</span>
-                    <span class="price">B$ 2.20</span>
-                </div>
-                <h3>Ice Lemon Tea</h3>
-                <p class="description">Crisp black tea infused with real lemon slices and served ice-cold for the ultimate thirst-quencher.</p>
-            </div>
-
-            <!-- Drink 5: Apple Juice -->
-            <div class="drink-card">
-                <div class="card-header">
-                    <span class="tag">Fruity</span>
-                    <span class="price">B$ 3.00</span>
-                </div>
-                <h3>Apple Juice</h3>
-                <p class="description">Sweet, crisp, and freshly extracted apple juice served chilled over a glass full of sparkling crystal ice cubes.</p>
-            </div>
-
-            <!-- Drink 6: Mineral Water -->
-            <div class="drink-card">
-                <div class="card-header">
-                    <span class="tag">Pure</span>
-                    <span class="price">B$ 1.00</span>
-                </div>
-                <h3>Mineral Water</h3>
-                <p class="description">Clean, crisp, and refreshing bottled natural mineral water to keep you hydrated throughout your meal.</p>
-            </div>
-
+        <div style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; background-color: #f9fafb;">
+          <h3 style="margin-top: 0; color: var(--primary-blue);">Teh Tarik</h3>
+          <p style="margin: 0.5rem 0; color: #555;">Strong hot brewed black tea 'pulled' back and forth to create a velvety, frothy top layer with sweet condensed milk.</p>
+          <strong style="color: var(--primary-blue);">$2.00</strong>
         </div>
-    </main>
 
-    <footer class="footer">
-        <p>&copy; 2026 Our Cafe Menu. Crafted with care on branch <code>feature/drinks-page</code>.</p>
-    </footer>
+        <div style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; background-color: #f9fafb;">
+          <h3 style="margin-top: 0; color: var(--primary-blue);">Calamansi Juice</h3>
+          <p style="margin: 0.5rem 0; color: #555;">Vibrant, tangy, and ice-cold fresh local calamansi lime juice packed with vitamin C to instantly beat the tropical heat.</p>
+          <strong style="color: var(--primary-blue);">$2.20</strong>
+        </div>
 
+        <div style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; background-color: #f9fafb;">
+          <h3 style="margin-top: 0; color: var(--primary-blue);">Ice Lemon Tea</h3>
+          <p style="margin: 0.5rem 0; color: #555;">Crisp black tea infused with real lemon slices and served ice-cold for the ultimate thirst-quencher.</p>
+          <strong style="color: var(--primary-blue);">$2.20</strong>
+        </div>
+
+        <div style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; background-color: #f9fafb;">
+          <h3 style="margin-top: 0; color: var(--primary-blue);">Apple Juice</h3>
+          <p style="margin: 0.5rem 0; color: #555;">Sweet, crisp, and freshly extracted apple juice served chilled over a glass full of sparkling crystal ice cubes.</p>
+          <strong style="color: var(--primary-blue);">$3.00</strong>
+        </div>
+
+        <div style="border: 1px solid var(--border-color); padding: 1rem; border-radius: 6px; background-color: #f9fafb;">
+          <h3 style="margin-top: 0; color: var(--primary-blue);">Mineral Water</h3>
+          <p style="margin: 0.5rem 0; color: #555;">Clean, crisp, and refreshing bottled natural mineral water to keep you hydrated throughout your meal.</p>
+          <strong style="color: var(--primary-blue);">$2.20</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Wonderland Canteen | All rights reserved.</p>
+  </footer>
 </body>
 </html>
