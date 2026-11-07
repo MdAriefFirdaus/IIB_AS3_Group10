@@ -5,7 +5,7 @@ Welcome to the *Wonderland Canteen* web application repository! This project is 
 ## 👥 Team & Roles
 * *Ashraf:* Base repository setup, main layout (index.html), feedback page (feedback.html), and UI/CSS animations.
 * *Naif:* Page structure for Beverages (drinks.html).
-* *Arief:* Page structure for snacks, repository management, and project documentation (README.md).
+* *Arief:* Page structure for snacks and usual menu, repository management, and project documentation (README.md).
 
 ## 🚀 Local Development Setup (Laravel Herd)
 1. Clone this repository into your local Herd directory:
@@ -22,9 +22,15 @@ Or through github
    - Laravel Herd will then create the site and it can be accessed with the URL provided
 
 ---
+
+Workflow:
+- Each members create their own sections of their website and create a branch to be put inside of the repository containing their files for their website sections and program
+- For every single changes made to main, each members are required to create a pull request which will require another review and approval from another member before they are able to merge their branch into main
+
 ## How merge conflicts was resolved
 * By opening up an editor interface and checking for lines of codes with conflicts highlighted, then keeping the new code and deleting the old line of code since the new code is the modified version of the previous code and saving the file
 
+  
 Reflections:
 
 <ins>Ashraf</ins>
@@ -40,3 +46,7 @@ For my contribution regarding this project, i was tasked in creating and designi
 Additionally, another challenge i faced was a missing letter within the "drinks.html" whereby it was originally "drink.html" which missed the letter "s". This issue caused the coding fail to compile and that the webpage was unable to opened; the solution to fix this was adding "s" to the "drink.html"
 
 Finally, another issue that i experienced was incorrect format within thee coding of the css.styles of my git branch. My collaborator Ashraf solves this issue by performing code review (modifying any necessary changes in order for the drinks page to look similarly with other pages in aesthetic and formatting). 
+
+<ins>Arief</ins>
+
+Arief: For this project, I contributed to the development of this assignment by assigning and explaining to my team members on how to properly use github's functionality such as pull requests and how to clone the main repository inside of their Laravel Herd project file directory as well as being the one to manage and track every single changes that happens inside of the repository. Alongside that, I also designed 2 branches containing the snacks section of our website and the usual menu sections of our website. The main hurdle I experienced while being a part of this development was reviewing the other's pull request and working with them to fix their merge conflict that they might experience before they are able to merge their branch inside of main. From this project, I have learned how to create a github repository alongside contributing with others on making a full project through using github as our workspace to share our contributions.
